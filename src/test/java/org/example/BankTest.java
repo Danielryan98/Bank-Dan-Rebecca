@@ -129,5 +129,10 @@ public class BankTest {
         assertEquals(expectedBalance, actualBalance);
     }
 
+    @Test
+    public void test_fail() {
+        assertEquals(1, 0);
+    }
+
 
 }
